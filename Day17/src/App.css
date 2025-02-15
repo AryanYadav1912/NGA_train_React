@@ -1,0 +1,98 @@
+/* General styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+/* Main container */
+.main-container {
+  background: #2c3e50;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+/* Input container */
+.input-container {
+  display: flex;
+  align-items: center;
+  background: #34495e;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #b2bec3;
+}
+
+/* Add button */
+.btn-primary {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #2ecc71;
+  transform: scale(1.1);
+}
+
+/* List items */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.listItem {
+  background: #16a085;
+  padding: 12px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  background: #1abc9c;
+  transform: translateX(5px);
+}
+
+/* Delete icon */
+.listItem span {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.listItem span:hover {
+  color: #e74c3c;
+  transform: scale(1.2);
+}
